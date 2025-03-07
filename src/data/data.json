@@ -1,0 +1,70 @@
+{
+  "name": "Root",
+  "type": "folder",
+  "children": [
+    {
+      "name": "Documents",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Resume.pdf",
+          "type": "file",
+          "size": "150KB"
+        },
+        {
+          "name": "ProjectProposal.docx",
+          "type": "file",
+          "size": "200KB"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "type": "folder",
+      "children": [
+        {
+          "name": "Vacation",
+          "type": "folder",
+          "children": [
+            {
+              "name": "beach.jpg",
+              "type": "file",
+              "size": "2MB"
+            },
+            {
+              "name": "mountains.png",
+              "type": "file",
+              "size": "3MB"
+            }
+          ]
+        },
+        {
+          "name": "profile.png",
+          "type": "file",
+          "size": "500KB"
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "type": "folder",
+      "children": [
+        {
+          "name": "song1.mp3",
+          "type": "file",
+          "size": "5MB"
+        },
+        {
+          "name": "song2.mp3",
+          "type": "file",
+          "size": "6MB"
+        }
+      ]
+    },
+    {
+      "name": "Notes.txt",
+      "type": "file",
+      "size": "50KB"
+    }
+  ]
+}
