@@ -39,6 +39,18 @@ const List = ({ data }) => {
 };
 
 const FileFolderList = () => {
+  const addNodeToList = (parentId) => {
+    const updateTree = (list) => {
+      return list?.map((node) => {
+        if (node?.id === parentId) {
+          return {
+            ...node,
+            children: [...node?.children, { id: "123", name: "" }],
+          };
+        }
+      });
+    };
+  };
   return (
     <div className="flex flex-col gap-[5px] pl-[10px]">
       {data?.name}
